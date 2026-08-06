@@ -1,7 +1,6 @@
+assets/
 node_modules/
 dist/
-.vercel/
+.git/
 .DS_Store
 *.log
-assets/
-.vercel
