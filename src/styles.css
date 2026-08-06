@@ -286,4 +286,4 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 .project-viewport-backdrop{position:fixed;inset:-100px;z-index:99998;background:var(--yellow);pointer-events:none}.project-detail{z-index:99999!important}
 .project-detail[aria-label="BUTCHER project details"] .project-long-copy>section:first-child{padding-top:clamp(12px,1.8vh,22px)}
 @media(max-width:800px){.project-list article:hover,.project-list article:active,.project-list article:focus{transform:none!important}}
-@media(max-width:800px){.project-detail{padding-bottom:8px!important}.project-detail .project-long-copy>:last-child,.project-detail .detail-body>:last-child{margin-bottom:0!important;padding-bottom:0!important}}
+@media(max-width:800px){.project-detail{padding-bottom:0!important}.project-detail .project-long-copy>:last-child,.project-detail .detail-body>:last-child{margin-bottom:0!important;padding-bottom:0!important}}
