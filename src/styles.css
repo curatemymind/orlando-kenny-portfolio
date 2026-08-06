@@ -284,3 +284,4 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 @media(max-width:800px){.project-list small{font-size:11px!important;line-height:1.4}.project-detail .detail-meta span{font-size:11px!important;padding:9px 12px}}
 .project-detail{max-height:100dvh!important;overscroll-behavior:none!important;-webkit-overflow-scrolling:touch}.project-detail::after{content:'';position:fixed;inset:0;z-index:-1;background:var(--yellow);pointer-events:none}
 .project-viewport-backdrop{position:fixed;inset:-100px;z-index:99998;background:var(--yellow);pointer-events:none}.project-detail{z-index:99999!important}
+.project-detail[aria-label="BUTCHER project details"] .project-long-copy>section:first-child{padding-top:clamp(12px,1.8vh,22px)}
