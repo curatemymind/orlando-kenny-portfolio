@@ -287,3 +287,4 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 .project-detail[aria-label="BUTCHER project details"] .project-long-copy>section:first-child{padding-top:clamp(12px,1.8vh,22px)}
 @media(max-width:800px){.project-list article:hover,.project-list article:active,.project-list article:focus{transform:none!important}}
 @media(max-width:800px){.project-detail{padding-bottom:12px!important}.project-detail .project-long-copy>:last-child,.project-detail .detail-body>:last-child{margin-bottom:0!important;padding-bottom:0!important}}
+body:has(.project-detail)>#root{visibility:hidden}
