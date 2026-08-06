@@ -281,3 +281,4 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 .experience-link{display:inline-flex;align-items:center;gap:14px;margin:12px 0 8px;padding:14px 18px;border:2px solid var(--ink);font-size:18px;font-weight:600;line-height:1;transition:background .2s,color .2s}.experience-link:hover{background:var(--ink);color:var(--yellow)}.experience-link b{font-size:1.15em}
 .rows article[role="button"]{padding-right:64px!important}.experience-toggle{right:18px}.rows article>small{overflow-wrap:anywhere}@media(max-width:800px){.rows article[role="button"]{padding-right:52px!important}.experience-toggle{right:12px}}
 .rows article,.rows article:hover,.rows article.is-open,.rows article.is-open:hover{padding-left:18px!important}@media(max-width:800px){.rows article,.rows article:hover,.rows article.is-open,.rows article.is-open:hover{padding-left:12px!important}}
+.hero h1 .name-word+.name-word{margin-top:.045em}
