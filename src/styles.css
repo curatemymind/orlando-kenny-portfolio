@@ -282,3 +282,4 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 .rows article,.rows article:hover,.rows article.is-open,.rows article.is-open:hover{padding-left:18px!important}@media(max-width:800px){.rows article,.rows article:hover,.rows article.is-open,.rows article.is-open:hover{padding-left:12px!important}}
 .hero h1 .name-word+.name-word{margin-top:.045em}
 @media(max-width:800px){.project-list small{font-size:11px!important;line-height:1.4}.project-detail .detail-meta span{font-size:11px!important;padding:9px 12px}}
+.project-detail{max-height:100dvh!important;overscroll-behavior:none!important;-webkit-overflow-scrolling:touch}.project-detail::after{content:'';position:fixed;inset:0;z-index:-1;background:var(--yellow);pointer-events:none}
