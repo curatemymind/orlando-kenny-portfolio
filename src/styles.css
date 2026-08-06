@@ -217,6 +217,8 @@ html,body,#root,main{width:100%;max-width:100%;overflow-x:clip}.project-detail{o
 .hero-top .photo-carousel figure{opacity:1!important;animation:none!important}.hero-top .photo-carousel figure.is-current{animation:photoReveal 1.15s ease-out both!important;animation-delay:0s!important;will-change:opacity,filter}.hero-top .photo-carousel figure.is-previous{z-index:0}.hero-top .photo-carousel figure.is-current{z-index:1}
 @keyframes photoReveal{0%{opacity:0;filter:url(#sandDissolve) blur(2.5px)}100%{opacity:1;filter:none}}
 .experience,.projects,.notes,.contact{content-visibility:auto;contain-intrinsic-size:auto 900px}
+.hero-top .hero-copy{position:relative;z-index:10}.hero-top .photo-carousel{position:relative;z-index:1}.hero-top .photo-carousel figure.is-current{animation:photoRevealSmooth 2.4s cubic-bezier(.22,.61,.36,1) both!important}.hero-top .photo-carousel figure.is-previous{opacity:1!important;filter:none!important}
+@keyframes photoRevealSmooth{0%{opacity:0;filter:url(#sandDissolve)}45%{opacity:.58;filter:url(#sandDissolve)}85%{opacity:.96;filter:url(#sandDissolve)}100%{opacity:1;filter:none}}
 .bike-network{position:relative;height:35vh;margin:5vh 0;border:1px solid rgba(222,223,24,.22);border-radius:18px;overflow:hidden;background:radial-gradient(circle at 50% 50%,rgba(222,223,24,.07),transparent 68%)}.bike-network canvas{display:block;width:100%;height:100%}.bike-network>span{position:absolute;left:10px;bottom:8px;font-size:8px;letter-spacing:.12em;color:rgba(236,243,234,.6);pointer-events:none}@media(max-width:800px){.bike-network{height:35vh}}
 .bike-network canvas{position:absolute;width:138%;height:138%;left:-19%;top:-19%;max-width:none}
 .bike-network{border:0;overflow:visible;background:transparent}
